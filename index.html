@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Clase 03</title>
+</head>
+<body>
+    <main>
+        <div>
+            <h1>Pokedex</h1>
+        </div>
+        <!-- Formulario para buscar un pokemon -->
+        <div>
+            <input id="pokemon_id" type="text" placeholder="Ingrese el id o nombre del pokemon">
+            <button type="button" onclick="searchPokemon()">Buscar</button>
+        </div>
+        <!-- El area donde se va a mostrar la informacion del pokemon -->
+        <div class="pokemon__data__container">
+            <p id="pokemon_name">Nombre de pokemon</p>
+            <img id="pokemon_image" src="" alt="pokemon-photo">
+            <h4>Movimientos</h4>
+            <ul id="list_moves"></ul>
+        </div>
+    </main>
+</body>
+<script src="./js/index.js"></script>
+</html>
